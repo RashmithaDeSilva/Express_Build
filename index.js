@@ -41,6 +41,7 @@ async function main() {
 
     spinner.succeed(`✅ Project "${projectName}" created successfully with ${chalk.bold(language.toUpperCase())}!`);
     console.log(`\nTo get started:\n\n  cd ${projectName}\n  npm install\n`);
+    
   } catch (err) {
     console.error(chalk.red('❌ Something went wrong:'), err.message);
     process.exit(1);
