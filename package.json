@@ -1,33 +1,39 @@
 {
-  "name": "express_create",
+  "name": "@lahirudesilva/expressgen",
   "version": "1.0.0",
   "description": "A CLI to create a custom express project",
   "author": "Lahiru De Silva",
   "license": "ISC",
   "main": "index.js",
+  "bin": {
+    "expressgen": "./index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "homepage": "https://github.com/RashmithaDeSilva/Express_Create#readme",
+  "homepage": "https://github.com/RashmithaDeSilva/Expressgrn#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RashmithaDeSilva/Express_Create.git"
+    "url": "git+https://github.com/RashmithaDeSilva/Expressgrn.git"
   },
   "keywords": [
     "express"
   ],
   "bugs": {
-    "url": "https://github.com/RashmithaDeSilva/Express_Create/issues"
+    "url": "https://github.com/RashmithaDeSilva/Expressgrn/issues"
   },
+  "files": [
+    "index.js",
+    "templates/",
+    "README.md"
+  ],
   "dependencies": {
     "chalk": "^5.4.1",
     "execa": "^9.6.0",
     "fs-extra": "^11.3.0",
-    "inquirer": "^12.7.0",
-    "ora": "^8.2.0",
-    "path": "^0.12.7",
-    "url": "^0.11.4"
+    "inquirer": "^9.2.7",
+    "ora": "^8.2.0"
   }
 }
