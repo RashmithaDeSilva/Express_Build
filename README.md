@@ -2,7 +2,7 @@
 
 A simple CLI tool to quickly scaffold modern Express.js projects in JavaScript or TypeScript with up-to-date dependencies and recommended setup.
 
-- [NPM Package](https://www.npmjs.com/package/@lahirudesilva/expressgen)
+- [NPM Package](https://www.npmjs.com/package/@lahirudesilva/express-build)
 
 ---
 
