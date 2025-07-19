@@ -19,19 +19,19 @@ A simple CLI tool to quickly scaffold modern Express.js projects in JavaScript o
 You can run without installing globally using npx:
 
 ```sh
-npx @lahirudesilva/expressgen
+npx @lahirudesilva/express-build
 ```
 
 Or install globally:
 
 ```sh
-npm i -g @lahirudesilva/expressgen
+npm i @lahirudesilva/express-build
 ```
 
 Then run:
 
 ```sh
-expressgen
+express-build
 ```
 
 ---
@@ -49,10 +49,7 @@ The CLI will create the project folder, copy the template files, and install all
 
 ```sh
 # Create a new project
-npx expressgen
-
-# OR if installed globally
-expressgen
+npx express-build
 
 # Navigate into your new project
 cd your-project-name

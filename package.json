@@ -1,12 +1,12 @@
 {
   "name": "@lahirudesilva/express-build",
   "version": "1.0.0",
-  "description": "A CLI to create a custom express project",
+  "description": "A CLI tool to create a custom express project",
   "author": "Lahiru De Silva",
   "license": "ISC",
   "main": "index.js",
   "bin": {
-    "expressgen": "./index.js"
+    "express-build": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
