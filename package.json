@@ -1,5 +1,5 @@
 {
-  "name": "@lahirudesilva/expressgen",
+  "name": "@lahirudesilva/express-build",
   "version": "1.0.0",
   "description": "A CLI to create a custom express project",
   "author": "Lahiru De Silva",
