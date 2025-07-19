@@ -1,4 +1,4 @@
-# Express-build
+# Express Build
 
 A simple CLI tool to quickly scaffold modern Express.js projects in JavaScript or TypeScript with up-to-date dependencies and recommended setup.
 
